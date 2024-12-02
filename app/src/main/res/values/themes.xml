@@ -4,6 +4,9 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+    <style name="SlideActivityAnimation" parent="@android:style/Animation.Activity"/>
+        <item name="android:activityOpenEnterAnimation">@anim/slide_to_left</item>
+        <item name="android:activityOpenEnterAnimation">@anim/slide_to_right</item>
 
     <style name="Theme.EcoTrack" parent="Base.Theme.EcoTrack" />
 </resources>
