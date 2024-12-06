@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EcoTrack</string>
+    <string name="weight_of_waste_in_kg">Weight of waste in kg</string>
+    <string name="description">Description</string>
+    <string name="submit_anonymously">Submit Anonymously</string>
+    <string name="submit">Submit</string>
 </resources>

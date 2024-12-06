@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginInActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    tools:ignore="HardcodedText">
 
     <ImageView
         android:id="@+id/imageView"
@@ -68,6 +69,7 @@
         android:layout_width="325dp"
         android:layout_height="57dp"
         android:layout_marginTop="50dp"
+        android:autofillHints="emailAddress"
         android:ems="10"
         android:hint="Username"
         android:inputType="textEmailAddress"
